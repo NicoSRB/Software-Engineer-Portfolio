@@ -20,4 +20,4 @@ Frontend: React, TypeScript, Material UI
 
 Build & Tooling: Vite
 
-Deployment: GitHub Pages / Vercel (depending on your setup)
+Deployment: Vercel 
