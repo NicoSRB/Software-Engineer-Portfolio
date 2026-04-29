@@ -14,8 +14,8 @@ export interface Project {
 
 export const softwareProjects: Project[] = [
   {
-    id: "Collectivly",
-    title: "Collectivly — Digital platform for organizing physical collections",
+    id: "Collectily",
+    title: "Collectily — Digital platform for organizing physical collections",
     tagline:
       "A self-driven product built to help collectors structure, search, and personalize their physical collections.",
     tech: [
