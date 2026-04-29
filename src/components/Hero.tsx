@@ -8,11 +8,13 @@ export default function Hero() {
     >
       <Stack spacing={2} textAlign="center" width="100%">
         <Typography variant="h3" fontWeight={600}>
-          Building full‑stack software that makes complex workflows simple.
+          Building reliable full‑stack applications with a focus on usability,
+          structure, and real‑world impact
         </Typography>
 
         <Typography variant="h6" color="text.secondary">
-          Software Development · User Centered · Usability
+          Full‑stack development · C#, .NET, React, TypeScript · Scalable APIs ·
+          Domain‑Driven Design · User‑Centered · Usability · CI/CD & Automation
         </Typography>
       </Stack>
     </Container>
