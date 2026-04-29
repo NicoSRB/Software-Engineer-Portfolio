@@ -10,8 +10,8 @@ export default function About() {
 
       <p style={{ lineHeight: 1.6, color: "white" }}>
         I build full‑stack software that makes complex processes feel simple. I
-        care about creating systems that are structured, intuitive, and
-        genuinely supportive of the people who use them every day.
+        care about creating systems that are structured, intuitive, and create
+        value for people who use them every day.
       </p>
     </section>
   );
