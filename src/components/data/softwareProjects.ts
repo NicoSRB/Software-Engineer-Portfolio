@@ -53,12 +53,12 @@ export const softwareProjects: Project[] = [
   },
   {
     id: "Termnet",
-    title: "Termnet — Search Optimization and Data Platform Expansion",
+    title: "Termnet — Search engine refactor and search optimization",
     tagline:
-      "A project focused on improving data structures, API flows, and the visualization of complex datasets.",
+      "A project focused on refactoring a console search engine, and database crawler to a microservice architecture and inforcing scalability policies with kubernetes. Along with developing a search optimization wt",
     tech: [
       "C#",
-      "Modulær arkitektur",
+      "Modular arkitektur",
       "Docker",
       "Kubernetes",
       "Redis",
@@ -66,7 +66,7 @@ export const softwareProjects: Project[] = [
       "TypeScript",
     ],
     problem:
-      "Komplekse datasæt og uklare entitetsmodeller gjorde det svært at sikre skalerbarhed, konsistens og effektiv databehandling på tværs af platformen.",
+      "Refactor monolidich console datacrawler + search engine Complex dataset and entitymodels made it hard to ensure scalability, consistency and effective data handling on the platform. ",
     myRole:
       "I redesigned core data structures, optimized API flows, and built visualization tools that made complex entity relationships easier to understand for both developers and domain experts.",
     technicalHighlights: [
