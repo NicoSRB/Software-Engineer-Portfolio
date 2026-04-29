@@ -48,17 +48,17 @@ export const softwareProjects: Project[] = [
     ],
     results:
       "Delivered a stable, scalable platform with fast data retrieval, high test coverage, and a clear roadmap for future expansion.",
-    github: "#",
+    github: "https://github.com/NicoSRB/Collectily",
     demo: null,
   },
   {
     id: "Termnet",
     title: "Termnet — Search engine refactor and search optimization",
     tagline:
-      "A project focused on refactoring a console search engine, and database crawler to a microservice architecture and inforcing scalability policies with kubernetes. Along with developing a search optimization wt",
+      "A project focused on refactoring a console-based search engine and database crawler into a microservice architecture, enforcing scalability policies with Kubernetes, and developing a search optimization workflow.",
     tech: [
       "C#",
-      "Modular arkitektur",
+      "Modular architecture",
       "Docker",
       "Kubernetes",
       "Redis",
@@ -66,14 +66,14 @@ export const softwareProjects: Project[] = [
       "TypeScript",
     ],
     problem:
-      "Refactor monolidich console datacrawler + search engine Complex dataset and entitymodels made it hard to ensure scalability, consistency and effective data handling on the platform. ",
+      "The monolithic console-based data crawler and search engine made it difficult to ensure scalability, consistency, and efficient data handling due to complex datasets and entity models.",
     myRole:
       "I redesigned core data structures, optimized API flows, and built visualization tools that made complex entity relationships easier to understand for both developers and domain experts.",
     technicalHighlights: [
       "Modular C# architecture with clear domain boundaries and improved data consistency",
       "Optimized data structures and relationships for better performance and scalability",
       "Docker-based development environment and Kubernetes deployment",
-      "Redis caching layer for faster lookups and reduced API loadt",
+      "Redis caching layer for faster lookups and reduced API load",
       "React/TypeScript frontend for visualizing complex datasets and relationships",
     ],
     engineeringChallenges: [
@@ -84,17 +84,17 @@ export const softwareProjects: Project[] = [
     ],
     results:
       "Delivered a more scalable, robust, and understandable data platform with improved data quality, faster response times, and a significantly better developer and user experience.",
-    github: "#",
+    github: "https://github.com/NicoSRB/SearchEngineV2",
     demo: null,
   },
   {
     id: "FestivalBooking",
-    title: "Festival Vagt Booking System",
+    title: "Festival Volunteer Shift Booking System",
     tagline:
       "A system for managing volunteer shifts with a focus on stability, usability, and automation.",
-    tech: ["C#", ".NET", "Blazor", "Azure", "Agil udvikling"],
+    tech: ["C#", ".NET", "Blazor", "Azure", "Agile development"],
     problem:
-      "Festivalens eksisterende vagtbooking var ineffektiv, fejlbehæftet og svær at bruge for ikke‑tekniske frivillige, hvilket førte til manuelle fejl og unødvendigt administrativt arbejde.",
+      "The festival’s existing shift booking system was inefficient, error‑prone, and difficult for non‑technical volunteers to use, leading to manual mistakes and unnecessary administrative work.",
     myRole:
       "I designed and implemented core backend features, developed a user-friendly Blazor UI, and set up a full CI/CD pipeline to ensure stability, automation, and rapid iteration.",
     technicalHighlights: [
@@ -113,6 +113,47 @@ export const softwareProjects: Project[] = [
     results:
       "Significantly improved shift planning and administration, reduced manual errors, and delivered faster, more intuitive workflows for volunteers and coordinators.",
     github: "#",
+    demo: null,
+  },
+  {
+    id: "AuctionService",
+    title: "Auction Service — Distributed real‑time bidding backend",
+    tagline:
+      "A distributed auction backend built with C#, MongoDB, and RabbitMQ, designed for real‑time bid processing, event‑driven workflows, and scalable auction management.",
+    tech: [
+      "C#",
+      ".NET",
+      "MongoDB",
+      "RabbitMQ",
+      "Async/Await",
+      "Clean Architecture",
+      "Docker",
+    ],
+    problem:
+      "Building a reliable auction system requires handling real‑time bids, ensuring data consistency, and coordinating multiple services. The original prototype lacked structure, scalability, and proper separation of concerns, making it difficult to extend or maintain.",
+    myRole:
+      "I designed and implemented the core backend architecture, including repositories, controllers, bid‑processing pipeline, RabbitMQ messaging, and MongoDB integration. I also established logging, validation, and error‑handling patterns to ensure a stable and maintainable system.",
+    technicalHighlights: [
+      "Modular C# architecture with clear separation between controllers, services, repositories, and messaging components",
+      "MongoDB integration using strongly typed collections and async operations",
+      "RabbitMQ producer/consumer pipeline for real‑time bid ingestion and event handling",
+      "BidHandler + BidProcessor pipeline for validating and processing incoming bids",
+      "Repository pattern with full CRUD support for auctions and bids",
+      "Robust logging and exception handling across all layers",
+      "Enum‑based auction status system with safe parsing and validation",
+      "Highest‑bid calculation using LINQ and optimized MongoDB queries",
+    ],
+    engineeringChallenges: [
+      "Ensuring consistency between bid events and stored auction state",
+      "Designing a repository that supports both admin‑level operations and user‑level queries",
+      "Handling real‑time bid ingestion without blocking API threads",
+      "Managing RabbitMQ connections safely through a custom connection factory",
+      "Avoiding race conditions when multiple bids arrive simultaneously",
+      "Structuring the system so it can later scale into microservices",
+    ],
+    results:
+      "Delivered a stable, event‑driven auction backend capable of handling real‑time bidding, consistent auction state, and scalable data operations. The system now has clear boundaries, strong validation, and a messaging pipeline ready for future expansion.",
+    github: "https://github.com/NicoSRB/AuctionService",
     demo: null,
   },
 ];
