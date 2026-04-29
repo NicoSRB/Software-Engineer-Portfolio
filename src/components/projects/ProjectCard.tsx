@@ -41,6 +41,7 @@ export default function ProjectCard({
           />
         ))}
       </Stack>
+      
     </Paper>
   );
 }
