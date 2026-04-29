@@ -13,8 +13,9 @@ export default function Hero() {
         </Typography>
 
         <Typography variant="h6" color="text.secondary">
-          Full‑stack development · C#, .NET, React, TypeScript · Scalable APIs ·
-          Domain‑Driven Design · User‑Centered · Usability · CI/CD & Automation
+          Full‑stack development · C#, .NET, React, TypeScript · Clean
+          Architecture · User‑Centered Design · Workflow Automation · Usability
+          & Accessibility · CI/CD
         </Typography>
       </Stack>
     </Container>
