@@ -17,22 +17,18 @@ export default function Skills() {
         <Box sx={{ flex: "1 1 200px" }}>
           <Typography fontWeight={500}>Frontend Experience</Typography>
           <Typography color="text.secondary">
-            React · TypeScript · UI architecture · Component design <br />—
-            Building clean, scalable interfaces with reusable components <br />—
-            Structuring UI logic for clarity and long‑term maintainability{" "}
-            <br />— Turning complex workflows into intuitive, user‑friendly
-            experiences
+            React · TypeScript · UI architecture · Component design <br />
+            — Clean, fast, scalable interfaces <br />— Reusable components that
+            keep products consistent
           </Typography>
         </Box>
 
         <Box sx={{ flex: "1 1 200px" }}>
           <Typography fontWeight={500}>Backend & Data</Typography>
           <Typography color="text.secondary">
-            C# · .NET · SQL · Data modeling · API design <br />— Designing
-            robust backend systems with clear domain boundaries <br />— Creating
-            predictable, well‑structured APIs for real‑world usage <br />
-            — Modeling data for consistency, scalability, and performance <br />
-            — Working with both relational and NoSQL databases
+            C# · .NET · SQL · Data modeling · API design <br />
+            — Structured, reliable backend services <br />— Clear APIs and data
+            models that scale
           </Typography>
         </Box>
 
@@ -41,10 +37,8 @@ export default function Skills() {
           <Typography color="text.secondary">
             User workflows · Analytics · Dashboards · Decision‑support tools{" "}
             <br />
-            — Understanding how people work and shaping software around their
-            needs <br />— Simplifying messy processes into structured, efficient
-            workflows <br />— Building dashboards and insights that support
-            better decisions <br />— Focusing on usability and real‑world impact
+            — Creating software that adds real value for users <br />—
+            Optimizing workflows to make daily work simpler and faster
           </Typography>
         </Box>
       </Box>
