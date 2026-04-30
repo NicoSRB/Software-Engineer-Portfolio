@@ -13,9 +13,8 @@ export default function Hero() {
         </Typography>
 
         <Typography variant="h6" color="text.secondary">
-          Full‑stack development · C#, .NET, React, TypeScript · Clean
-          Architecture · User‑Centered Design · Workflow Automation · Usability
-          & Accessibility · CI/CD
+          Full‑stack development · C#, .NET, React, TypeScript · Azure · Clean
+          Architecture · User‑Centered Design · Usability & Accessibility
         </Typography>
       </Stack>
     </Container>
