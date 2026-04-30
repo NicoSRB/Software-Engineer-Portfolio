@@ -51,6 +51,9 @@ export default function ProjectModal({ project, onClose }: Props) {
         <Typography sx={{ mt: 1 }}>
           <strong>Github:</strong> {project.github}
         </Typography>
+        <Typography sx={{ mt: 1 }}>
+          <strong>Demo:</strong> {project.demo}
+        </Typography>
       </DialogContent>
     </Dialog>
   );

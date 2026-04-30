@@ -24,7 +24,7 @@ export const softwareProjects: Project[] = [
       "React",
       "TypeScript",
       "PostgreSQL",
-      "Jest",
+      "Azure Cloud",
       "xUnit",
       "GitHub Actions",
     ],
@@ -33,11 +33,11 @@ export const softwareProjects: Project[] = [
     myRole:
       "I designed and built the full system end-to-end: backend architecture, frontend application, database design, testing strategy, and product direction based on user research.",
     technicalHighlights: [
-      "C#/.NET REST API with clean architecture and modular domain boundaries",
+      "C#/.NET SOLID REST API with clean architecture and modular domain boundaries",
       "PostgreSQL schema designed for flexible item types and metadata",
+      "CI/CD pipeline for automated builds, tests, and deployments via Azure",
       "React/TypeScript frontend with reusable UI components",
       "Automated test suite with 85% coverage (unit + integration)",
-      "CI/CD pipeline for automated builds, tests, and deployments",
       "Performance-focused data access layer using async patterns and optimized queries",
     ],
     engineeringChallenges: [
@@ -49,7 +49,7 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a stable, scalable platform with fast data retrieval, high test coverage, and a clear roadmap for future expansion.",
     github: "https://github.com/NicoSRB/Collectily",
-    demo: null,
+    demo: "https://nice-sea-08a19bc10.7.azurestaticapps.net/",
   },
   {
     id: "Termnet",
