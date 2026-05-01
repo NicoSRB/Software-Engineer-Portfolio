@@ -5,7 +5,7 @@ export default function Navbar() {
     <AppBar position="sticky" color="transparent" elevation={0}>
       <Toolbar sx={{ justifyContent: "space-between", py: 2 }}>
         <Typography variant="h6" sx={{ fontWeight: 600 }}>
-          NicoSRB |
+          NicoSRB @ github |
         </Typography>
 
         <Stack direction="row" spacing={3}>

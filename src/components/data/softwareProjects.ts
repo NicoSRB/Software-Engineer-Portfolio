@@ -51,6 +51,45 @@ export const softwareProjects: Project[] = [
     github: "https://github.com/NicoSRB/Collectily",
     demo: "https://nice-sea-08a19bc10.7.azurestaticapps.net/",
   },
+
+  {
+    id: "BookTracker",
+    title: "Book Tracker — A modern reading management app",
+    tagline:
+      "A lightweight, full‑stack application for tracking reading progress with a clean UI, GraphQL backend, and real‑time status updates.",
+    tech: [
+      "C#",
+      ".NET",
+      "GraphQL",
+      "React",
+      "TypeScript",
+      "Material UI",
+      "Apollo Client",
+    ],
+    problem:
+      "Readers often lack a simple, intuitive way to track what they want to read, what they’re currently reading, and what they’ve finished. Existing tools are cluttered, slow, or overly complex for everyday use.",
+    myRole:
+      "I designed and built the entire system: backend GraphQL API, frontend UI with Material UI, state management with Apollo Client, and a clean developer‑friendly architecture.",
+    technicalHighlights: [
+      "C#/.NET GraphQL API with strongly typed schema and mutation support",
+      "In‑memory data store with clean domain boundaries and extensible service layer",
+      "React + TypeScript frontend using Material UI with a custom dark theme",
+      "Apollo Client integration with mutations, refetching, and network‑only queries",
+      "Reusable UI components including dynamic status dropdowns and creation forms",
+      "Environment‑based configuration for API endpoints",
+    ],
+    engineeringChallenges: [
+      "Ensured consistent ID generation and state synchronization across backend mutations",
+      "Resolved TypeScript/MUI inference issues to maintain clean component typing",
+      "Implemented a responsive layout with flexible card‑based UI elements",
+      "Designed a smooth UX for updating book status directly from the list view",
+    ],
+    results:
+      "Delivered a polished, responsive reading tracker with instant updates, clean UI, and a scalable backend foundation ready for persistence, authentication, and future features.",
+    github: "https://github.com/NicoSRB/BookTracker",
+    demo: "https://your-demo-url-here",
+  },
+
   {
     id: "Termnet",
     title: "Termnet — Search engine refactor and search optimization",
