@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      style={{ maxWidth: "2000px", margin: "0 auto", padding: "4rem 1rem" }}
+      style={{ maxWidth: "1200px", margin: "0 auto", padding: "4rem 1rem" }}
     >
       <h2
         style={{ fontSize: "1.5rem", fontWeight: 500, marginBottom: "1.5rem" }}
