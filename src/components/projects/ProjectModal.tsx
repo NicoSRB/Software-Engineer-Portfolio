@@ -58,9 +58,13 @@ export default function ProjectModal({ project, onClose }: Props) {
         </Typography>
         <Typography sx={{ mt: 1 }}>
           <strong>Demo:</strong>{" "}
-          <Link href={project.demo} target="_blank" rel="noopener noreferrer">
-            Live Demo
-          </Link>
+          {project.demo ? (
+            <Link href={project.demo} target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </Link>
+          ) : (
+            "No demo available"
+          )}
         </Typography>
       </DialogContent>
     </Dialog>
