@@ -6,6 +6,8 @@ import {
   List,
   ListItem,
 } from "@mui/material";
+import Link from "@mui/material/Link";
+
 import type { Project } from "../data/softwareProjects";
 
 interface Props {
@@ -49,10 +51,16 @@ export default function ProjectModal({ project, onClose }: Props) {
           <strong>Results:</strong> {project.results}
         </Typography>
         <Typography sx={{ mt: 1 }}>
-          <strong>Github:</strong> {project.github}
+          <strong>Github:</strong>{" "}
+          <Link href={project.github} target="_blank" rel="noopener noreferrer">
+            View Repo
+          </Link>
         </Typography>
         <Typography sx={{ mt: 1 }}>
-          <strong>Demo:</strong> {project.demo}
+          <strong>Demo:</strong>{" "}
+          <Link href={project.demo} target="_blank" rel="noopener noreferrer">
+            Live Demo
+          </Link>
         </Typography>
       </DialogContent>
     </Dialog>
