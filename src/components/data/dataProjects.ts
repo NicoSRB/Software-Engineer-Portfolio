@@ -3,9 +3,9 @@ import type { Project } from "./softwareProjects";
 export const dataProjects: Project[] = [
   {
     id: "WhiskeyChatbot",
-    title: "WhiskeyChatbot — ML‑based recommendation assistant",
+    title: "WhiskeyChatbot — AI driven recommendation assistant",
     tagline:
-      "A chatbot that recommends whiskeys based on flavor profiles and NLP‑driven models.",
+      "An AI-powered chatbot that helps users discover whiskey recommendations based on flavor profiles and personal preferences.",
     tech: ["Python", "Flask", "NLP", "React", "TypeScript"],
 
     problem:

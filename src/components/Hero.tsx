@@ -8,13 +8,12 @@ export default function Hero() {
     >
       <Stack spacing={2} textAlign="center" width="100%">
         <Typography variant="h3" fontWeight={600}>
-          Building reliable full‑stack applications with a focus on usability,
-          structure, and real‑world impact
+          Building software solutions where data, technology and user needs come together. 
         </Typography>
 
         <Typography variant="h6" color="text.secondary">
-          Software development· Data-driven solutions · C#/.NET,
-          React/TypeScript · Azure · AI integration · Clpud architecture ·
+          Software development · Data-driven solutions · C#/.NET,
+          React/TypeScript · Azure · AI integration · Cloud architecture ·
           User‑Centered Design
         </Typography>
       </Stack>

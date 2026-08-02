@@ -92,12 +92,12 @@ export const softwareProjects: Project[] = [
 
   {
     id: "Termnet",
-    title: "Termnet — Search engine refactor and search optimization",
+    title: "Termnet — Search platform for exploring relationships in large datasets",
     tagline:
       "A project focused on refactoring a console-based search engine and database crawler into a microservice architecture, enforcing scalability policies with Kubernetes, and developing a search optimization workflow.",
     tech: [
       "C#",
-      "Modular architecture",
+      "Microservices",
       "Docker",
       "Kubernetes",
       "Redis",
@@ -105,15 +105,15 @@ export const softwareProjects: Project[] = [
       "TypeScript",
     ],
     problem:
-      "The monolithic console-based data crawler and search engine made it difficult to ensure scalability, consistency, and efficient data handling due to complex datasets and entity models.",
+      "Large datasets often contain valuable information that can be difficult to discover because relevant concepts are distributed across many sources. THe goal was to build a search solution that could identify r occurences and exand searches through related concepts.  ",
     myRole:
-      "I redesigned core data structures, optimized API flows, and built visualization tools that made complex entity relationships easier to understand for both developers and domain experts.",
+      "I redesigned the existing architecture, improved search workflows, potimized data handling, and developed visualization tools to make complex search results easier to understand. ",
     technicalHighlights: [
-      "Modular C# architecture with clear domain boundaries and improved data consistency",
-      "Optimized data structures and relationships for better performance and scalability",
-      "Docker-based development environment and Kubernetes deployment",
-      "Redis caching layer for faster lookups and reduced API load",
-      "React/TypeScript frontend for visualizing complex datasets and relationships",
+      "Developed search functionality for finding relevant terms across large datasets.",
+      "Implemented weighted search explansion based on predefined relationships between concepts.",
+      "Refactored the solution into a modular architecture with improved seperation of responsibilities.",
+      "Built docker based environments and deployed via Azure services and kubernetes.", 
+      "Developed react/typescript visualization tools for exploring search results and relationships."
     ],
     engineeringChallenges: [
       "Simplified and redesigned entity models to reduce complexity and improve data quality",

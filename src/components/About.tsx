@@ -9,8 +9,8 @@ export default function About() {
       </h2>
 
       <p style={{ lineHeight: 1.6, color: "white" }}>
-        Building software solutions where data, technology, and user needs come
-        together.
+        I build software solutions that connect technology, data and user needs. I enjoy working across the entire development process, from understanding problems and designing architecture to implementing reliable solutions. 
+        My main interest lies in making complex problems more stuctured, accessible, and useful throught software. Whether it is about improving workflows, building data-driven applications, or exploring ai based solutions, I focus on creating systems that provide real value to people using them.  
       </p>
     </section>
   );
