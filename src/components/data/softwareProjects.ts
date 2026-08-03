@@ -17,7 +17,7 @@ export const softwareProjects: Project[] = [
     id: "Collectily",
     title: "Collectily — Digital platform for organizing physical collections",
     tagline:
-      "A self-driven product built to help collectors structure, search, and personalize their physical collections. (Under constuction)",
+      "A self-driven product built to help collectors structure, search, and personalize their physical collections. Github can be shown upon request.",
     tech: [
       "C#",
       ".NET Core",
@@ -86,7 +86,6 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a polished, responsive reading tracker with instant updates, clean UI, and a scalable backend foundation ready for persistence, authentication, and future features.",
     github: "https://github.com/NicoSRB/BookTracker",
-
   },
 
   {

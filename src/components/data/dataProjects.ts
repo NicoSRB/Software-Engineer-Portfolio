@@ -5,7 +5,7 @@ export const dataProjects: Project[] = [
     id: "WhiskeyChatbot",
     title: "WhiskeyChatbot — AI driven recommendation assistant",
     tagline:
-      "An AI-powered chatbot that helps users discover whiskey recommendations based on flavor profiles and personal preferences.",
+      "An AI-powered chatbot that helps users discover whiskey recommendations based on flavor profiles and personal preferences. Github can be shown on request.",
     tech: ["Python", "Flask", "NLP", "React", "TypeScript"],
 
     problem:
@@ -31,7 +31,5 @@ export const dataProjects: Project[] = [
 
     results:
       "Delivered a functional prototype capable of matching users with relevant whiskey profiles based on flavor characteristics, user input, and ML‑driven insights.",
-
-    github: "Can be shared upon request",
   },
 ];
