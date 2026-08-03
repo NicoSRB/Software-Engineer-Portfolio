@@ -49,7 +49,6 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a stable, scalable platform with fast data retrieval, high test coverage, and a clear roadmap for future expansion.",
     github: "https://github.com/NicoSRB/Collectily",
-    demo: "Not available",
   },
 
   {
@@ -87,7 +86,7 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a polished, responsive reading tracker with instant updates, clean UI, and a scalable backend foundation ready for persistence, authentication, and future features.",
     github: "https://github.com/NicoSRB/BookTracker",
-    demo: "Not available",
+
   },
 
   {
@@ -125,7 +124,6 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a more scalable, robust, and understandable data platform with improved data quality, faster response times, and a significantly better developer and user experience.",
     github: "https://github.com/NicoSRB/SearchEngineV2",
-    demo: "not available",
   },
   {
     id: "FestivalBooking",
@@ -153,7 +151,6 @@ export const softwareProjects: Project[] = [
     results:
       "Significantly improved shift planning and administration, reduced manual errors, and delivered faster, more intuitive workflows for volunteers and coordinators.",
     github: "Not available",
-    demo: null,
   },
   {
     id: "AuctionService",
@@ -194,6 +191,5 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a stable, event‑driven auction backend capable of handling real‑time bidding, consistent auction state, and scalable data operations. The system now has clear boundaries, strong validation, and a messaging pipeline ready for future expansion.",
     github: "https://github.com/NicoSRB/AuctionService",
-    demo: "Not available",
   },
 ];

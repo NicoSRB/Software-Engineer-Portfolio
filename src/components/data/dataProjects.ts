@@ -33,6 +33,5 @@ export const dataProjects: Project[] = [
       "Delivered a functional prototype capable of matching users with relevant whiskey profiles based on flavor characteristics, user input, and ML‑driven insights.",
 
     github: "Can be shared upon request",
-    demo: "Not Available",
   },
 ];

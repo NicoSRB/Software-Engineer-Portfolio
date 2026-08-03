@@ -56,16 +56,6 @@ export default function ProjectModal({ project, onClose }: Props) {
             View Repo
           </Link>
         </Typography>
-        <Typography sx={{ mt: 1 }}>
-          <strong>Demo:</strong>{" "}
-          {project.demo ? (
-            <Link href={project.demo} target="_blank" rel="noopener noreferrer">
-              Live Demo
-            </Link>
-          ) : (
-            "No demo available"
-          )}
-        </Typography>
       </DialogContent>
     </Dialog>
   );
