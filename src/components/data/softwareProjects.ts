@@ -149,7 +149,6 @@ export const softwareProjects: Project[] = [
     ],
     results:
       "Significantly improved shift planning and administration, reduced manual errors, and delivered faster, more intuitive workflows for volunteers and coordinators.",
-    github: "Not available",
   },
   {
     id: "AuctionService",
