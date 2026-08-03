@@ -49,7 +49,7 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a stable, scalable platform with fast data retrieval, high test coverage, and a clear roadmap for future expansion.",
     github: "https://github.com/NicoSRB/Collectily",
-    demo: "https://nice-sea-08a19bc10.7.azurestaticapps.net/",
+    demo: "Not available",
   },
 
   {
@@ -87,12 +87,13 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a polished, responsive reading tracker with instant updates, clean UI, and a scalable backend foundation ready for persistence, authentication, and future features.",
     github: "https://github.com/NicoSRB/BookTracker",
-    demo: null,
+    demo: "Not available",
   },
 
   {
     id: "Termnet",
-    title: "Termnet — Search platform for exploring relationships in large datasets",
+    title:
+      "Termnet — Search platform for exploring relationships in large datasets",
     tagline:
       "A project focused on refactoring a console-based search engine and database crawler into a microservice architecture, enforcing scalability policies with Kubernetes, and developing a search optimization workflow.",
     tech: [
@@ -112,8 +113,8 @@ export const softwareProjects: Project[] = [
       "Developed search functionality for finding relevant terms across large datasets.",
       "Implemented weighted search explansion based on predefined relationships between concepts.",
       "Refactored the solution into a modular architecture with improved seperation of responsibilities.",
-      "Built docker based environments and deployed via Azure services and kubernetes.", 
-      "Developed react/typescript visualization tools for exploring search results and relationships."
+      "Built docker based environments and deployed via Azure services and kubernetes.",
+      "Developed react/typescript visualization tools for exploring search results and relationships.",
     ],
     engineeringChallenges: [
       "Simplified and redesigned entity models to reduce complexity and improve data quality",
@@ -124,7 +125,7 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a more scalable, robust, and understandable data platform with improved data quality, faster response times, and a significantly better developer and user experience.",
     github: "https://github.com/NicoSRB/SearchEngineV2",
-    demo: null,
+    demo: "not available",
   },
   {
     id: "FestivalBooking",
@@ -151,7 +152,7 @@ export const softwareProjects: Project[] = [
     ],
     results:
       "Significantly improved shift planning and administration, reduced manual errors, and delivered faster, more intuitive workflows for volunteers and coordinators.",
-    github: "#",
+    github: "Not available",
     demo: null,
   },
   {
@@ -193,6 +194,6 @@ export const softwareProjects: Project[] = [
     results:
       "Delivered a stable, event‑driven auction backend capable of handling real‑time bidding, consistent auction state, and scalable data operations. The system now has clear boundaries, strong validation, and a messaging pipeline ready for future expansion.",
     github: "https://github.com/NicoSRB/AuctionService",
-    demo: null,
+    demo: "Not available",
   },
 ];
